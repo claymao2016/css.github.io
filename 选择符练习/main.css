@@ -9,3 +9,6 @@ p {
     line-height: 2em;
     color: green;
 }
+img{
+	float:left;
+}
