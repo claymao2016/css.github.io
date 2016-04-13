@@ -1,0 +1,23 @@
+div {
+	border:0.1px black solid;
+	background-color:rgba(202, 0, 0, 0.4);
+	box-shadow:5px 5px 1px 1px rgba(202, 0, 0, 0.4);
+	width:20%;	
+	font-family:黑体;
+	font-size:20px;
+}
+div.one {
+    float:left;   
+}
+div.two{
+	float:left;
+	width:10%;
+    padding:10px;
+}
+div.two h1{
+     text-align:center;
+}
+div.three {
+	float:right;
+}
+div.main
