@@ -1,7 +1,47 @@
 body{
-	background-color:black;
-	padding:0 auto;
-	margin: 43px;
-	color:white;
-	
+	background-color: #222222;
+}
+.main{
+	width: 894px;
+	margin: 0 auto;
+	padding: 0 10px;
+	background-color: white;
+	}
+.title{
+	border-bottom: 1px black solid;
+	height:85px;
+}
+.first{
+    background-color: red;
+    color: white;
+    padding-left: 13px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    width: 110px;
+    float: left;
+}
+.second{
+	color: red;
+	font-weight: bold;
+	float: right;
+	padding-top: 40px;
+    padding-bottom: 5px;
+    width: 110px;
+    text-align: right;
+    float: right;
+}
+.img{
+	margin-top: 40px;
+	width: 100%;
+	height: 300px;
+}
+.intro{
+    width: 200px;
+    border-top: 1px #cc8091 solid;
+    float: right;
+    padding-top: 40px;
+}
+.intro p:nth-child(1){
+	font:14px 黑体 bold;
+	text-decoration: underline;
 }
