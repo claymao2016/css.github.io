@@ -311,9 +311,9 @@ img{
 }
 .hello p{
 	font-family:微软雅黑;
-	font-size: 13px;
+	font-size: 15px;
 	color: #8B8B81;
-	letter-spacing: 0.13em;
+	letter-spacing: 0.18em;
 }
 .hello span{
     font-size: 60px;
@@ -322,7 +322,7 @@ img{
 }
 .hello .come{
 	float: left;
-    margin: -18px 10px 0px -40px;
+    margin: -15px 10px 0px -30px;
     height: 30px;
 }
 .hello .go{
