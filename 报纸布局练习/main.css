@@ -39,9 +39,4 @@ body{
     width: 200px;
     border-top: 1px #cc8091 solid;
     float: right;
-    padding-top: 40px;
-}
-.intro p:nth-child(1){
-	font:14px 黑体 bold;
-	text-decoration: underline;
 }
