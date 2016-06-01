@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>jQuery 中的 ready 方法</title>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <style type="text/css" media="screen">
+    body {
+        width: 960px;
+        margin: 0 auto;
+        font: 18px/1.8em '
+ 微软雅黑 ';
+
+    }
+    
+    h1 {
+        color: green;
+    }
+    
+    p {
+        font-size: 20;
+        padding: 5px 0;
+    }
+    </style>
+    <script>
+    $(document).ready(function() {
+        console.log("document loaded");
+    });
+    window.onload = function() {
+            console.log("window onload
+
+                事件触发 ");
+            };
+            // jQuery
+            中的
+            ready
+            方法可以多次调用， 互不冲突
+            $(document).ready(function() {
+                console.log("another ready");
+            });
+            // window.onload
+            事件多次调用会产生冲突
+            window.onload = function() {
+                    console.log("window onload
+                        又一次事件触发 ");
+                    };
+                    // $( document ).ready()
+                    可简写为
+                    $()。
+                    $(function() {
+                                console.log("$( document ).ready()
+                                    可简写为 $()。
+                                    ");
+                                });
+    </script>
+</head>
+
+<body>
+    <iframe src="http://www.baidu.com"></iframe>
+    <!-- <script src="js/jquery-1.11.3.min.js"></script> -->
+    <!-- jQuery
+库引用位置如果放在这里，则之前的
+jQuery
+代码出错
+-->
+</body>
+
+</html>
