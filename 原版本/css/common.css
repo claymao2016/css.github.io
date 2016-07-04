@@ -1,0 +1,222 @@
+html,body
+{
+    font-family: "Microsoft yahei","微软雅黑","Tahoma","Verdana","Arial","sans-serif";
+    color: #FFFFFF;
+    width: 100%;
+    height: 100%;
+}
+body,div,ul,li,ol
+{
+    margin: 0;
+    padding: 0;
+}
+
+#navContainer
+{
+    position: fixed;
+    margin-left: -350px;
+    top: 0px;
+    left:50%;
+	z-index:100;
+}
+
+#navContainer .logo
+{
+    float: left;
+}
+#navContainer .logo a{
+	display:block;
+	margin:0;
+	padding:0;
+	border:none;
+	text-decoration:none;
+}
+#navContainer .logo img{
+	border:none;
+}
+#navContainer .navPanel
+{
+    float: left;
+    margin-left: 10px;
+    width: 602px;
+    height: 40px;
+    background-color: #132349;
+}
+
+#navContainer .navPanel .navUl
+{
+    height: 100%;
+    margin-left: 12px;
+}
+
+#navContainer .navPanel .navUl .nav
+{
+    position: relative;
+    list-style:none;
+    float: left;
+    height: 100%;
+    line-height: 40px;
+    font-size: 16px;
+}
+
+#navContainer .navPanel .navUl .nav .navLink
+{
+    position: relative;
+    padding-left: 12px;
+    padding-right: 12px;
+    display: block;
+    clear: both;
+    height: 100%;
+    color: #FFFFFF;
+    text-decoration:none;
+}
+#navContainer .navPanel .navUl .nav .h_hover{
+	color:#027eba;
+}
+#navContainer .navPanel  .nav .hover_c {
+    color: #027EBA;
+}
+#navContainer .navPanel .nav .none_c {
+    color: #FFF;
+}
+/*#navContainer .navPanel .navUl .nav .navLink:hover
+{
+    color: #00d0ff;
+}*/
+
+
+#navContainer .navPanel .navUl .nav .arrow
+{
+    position: absolute;
+    margin-left: -55px;
+    left: 50%;
+    width: 110px;
+    height: 8px;
+    background-image: url("../images/home/navArrow.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: none;
+}
+
+#navContainer .navPanel .navUl .nav ol
+{
+    position: absolute;
+    margin-left: -41px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    left: 50%;
+    top: 48px;
+    width: 110px;
+    background-color: #000000;
+    display: none;
+    opacity: 0.9;
+    overflow: hidden;
+}
+
+#navContainer .navPanel .navUl .nav ol li
+{
+    list-style: none;
+    clear: both;
+    height: 22px;
+    line-height: 22px;
+    font-size: 13px;
+}
+
+#navContainer .navPanel .navUl .nav ol li a
+{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 10px;
+    display: block;
+    height: 100%;
+    color: #FFFFFF;
+    text-decoration:none;
+}
+
+#navContainer .navPanel .navUl .nav ol li a:hover
+{
+    color: #00d0ff;
+}
+
+#navContainer .share
+{
+    position: absolute;
+    right: 20px;
+    top: 0px;
+}
+
+#navContainer .share .shareToggle
+{
+    width: 30px;
+    height: 40px;
+    background-image: url("../images/shareIcon.png");
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+#navContainer .share .shareToggle:hover
+{
+    background-color: #030d24;
+}
+
+#navContainer .navPanel .share .sharePanel
+{
+    display: none;
+}
+
+#navContainer .navPanel .share .sharePanel li
+{
+    list-style:none;
+    width:30px;
+    height: 30px;
+    background-image: url("../images/shareItemIcon.png");
+    cursor: pointer;
+    background-color: #030d24;
+}
+
+#navContainer .navPanel .sharePanel li:hover
+{
+    background-color: #11a7c9;
+}
+
+#navContainer .navPanel .sharePanel .s1
+{
+    background-position: center 0px;
+}
+
+#navContainer .navPanel .sharePanel .s2
+{
+    background-position: center -30px;
+}
+
+#navContainer .navPanel .sharePanel .s3
+{
+    background-position: center -60px;
+}
+
+#navContainer .navPanel .sharePanel .s4
+{
+    background-position: center -90px;
+}
+
+#footer
+{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #090909;
+    text-align: center;
+    font-family: "Arial";
+    font-size: 10px;
+    color: #027eba;
+    overflow: hidden;
+}
+
+
+#footer img	{
+    left: 7px;
+    padding: 0;
+    position: relative;
+    top: 2px;
+}
