@@ -71,7 +71,7 @@ this.bfd = this.bfd || {};
         var title = encodeURIComponent(document.title);
         var pic = this.getCurrentPath()+"images/home/logo.png";
         pic = encodeURIComponent(pic);
-        var summary = "蓝色光标数字营销机构—BlueDigital";
+        var summary = "太阳雨集团——sunrain";
         window.open("http://www.jiathis.com/send/?webid="+webid+"&url="+url+"&title="+title+"&pic="+pic+"&summary="+summary);
     };
 
